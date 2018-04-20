@@ -25,4 +25,4 @@
 
 ^ 参见 ^
 
-+ [$Note] + [$Chord] + [$NoteLength] +
++ [音符|Note] + [和弦|Chord] + [小节线|BarLine] + [时值操作符|DurationOperator] +
