@@ -1,47 +1,53 @@
 [
-  "overview",
+  ["overview", "Thulium 语言概述"],
   {
-    "name": "Ammonia",
+    "name": ["Syntax", "内置语法"],
     "content": [
-      ".overview",
-      "Appoggiatura",
-      "Arpeggio",
-      "KeyShift",
-      "Key",
-      "GraceNote",
-      "Seg",
-      "Oct"
+      ["overview", "概述"],
+      ["BarLine", "小节线"],
+      ["Chord", "和弦"],
+      ["DurationOperator", "时值操作符"],
+      ["IntensityOperator", "音量操作符"],
+      ["Note", "音符"],
+      ["PitchOperator", "音高操作符"],
+      ["Rest", "休止符"],
+      ["TieAndSlur", "连音线"],
+      ["UndeterminedPitch", "UndeterminedPitch"]
     ]
   },
   {
-    "name": "API",
+    "name": ["Ammonia", "Ammonia"],
     "content": [
-      "API",
-      "Meta",
-      "Setting",
-      "Track"
+      [".overview", "Ammonia 包概述"],
+      ["Appoggiatura", "后倚音"],
+      ["Arpeggio", "琶音"],
+      ["KeyShift", "KeyShift"],
+      ["Key", "Key"],
+      ["GraceNote", "GraceNote"],
+      ["Seg", "Seg"],
+      ["Oct", "Oct"]
     ]
   },
   {
-    "name": "Guides",
+    "name": ["API", "程序接口"],
     "content": [
-      "Ornaments",
-      "Tonality"
+      ["API", "API"],
+      ["Meta", "Meta"],
+      ["Setting", "Setting"],
+      ["Track", "Track"]
     ]
   },
   {
-    "name": "Syntax",
+    "name": ["Guides", "指南"],
     "content": [
-      "BarLine",
-      "Chord",
-      "DurationOperator",
-      "IntensityOperator",
-      "Note",
-      "overview",
-      "PitchOperator",
-      "Rest",
-      "TieAndSlur",
-      "UndeterminedPitch"
+      ["Ornaments", "Ornaments"],
+      ["Tonality", "Tonality"]
+    ]
+  },
+  {
+    "name": ["ChangeLog", "更新日志"],
+    "content": [
+      ["3.0.1", "3.0.1 版本"]
     ]
   }
 ]
