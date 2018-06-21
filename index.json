@@ -1,15 +1,15 @@
 [
   ["overview", "Thulium 语言概述"],
   {
-    "name": ["Syntax", "内置语法"],
+    "name": ["Syntax", "基本语法"],
     "default": "overview",
     "content": [
       ["overview", "概述"],
+      ["Note", "音符"],
       ["BarLine", "小节线"],
       ["Chord", "和弦"],
       ["DurationOperator", "时值操作符"],
       ["IntensityOperator", "音量操作符"],
-      ["Note", "音符"],
       ["PitchOperator", "音高操作符"],
       ["Rest", "休止符"],
       ["TieAndSlur", "连音线"],
@@ -18,7 +18,7 @@
   },
   {
     "name": ["Ammonia", "Ammonia"],
-    "default": ".overview",
+    "default": "overview",
     "content": [
       [".overview", "Ammonia 包概述"],
       ["Appoggiatura", "后倚音"],
