@@ -15,7 +15,7 @@
     "name": ["Ammonia", "Ammonia"],
     "default": "overview",
     "content": [
-      [".overview", "Ammonia 包概述"],
+      ["overview", "Ammonia 包概述"],
       ["Appoggiatura", "后倚音"],
       ["Arpeggio", "琶音"],
       ["KeyShift", "KeyShift"],
