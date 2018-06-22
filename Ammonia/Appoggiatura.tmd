@@ -1,9 +1,29 @@
-# Appoggiatura ((后倚音))
+# 倚音与琶音
+
+倚音和琶音是非常常见的装饰音，为此 Ammonia 包也提供了相应的函数来实现它们。
+
+### GraceNote 前倚音
+
+? GraceNote(*subtrack*, *note*)
+  将*subtrack*作为*note*的前倚音。
+? (*subtrack*^)*note*
+  GraceNote 函数的简记形式。
+
+前倚音的效果是减小 *note* 的时值并将 *subtrack* 压缩置于减小的部分上。
+
+### Appoggiatura 后倚音
 
 ? Appoggiatura(*subtrack*, *note*)
-  将 *subtrack* 作为 *note* 的前倚音。
+  将*subtrack*作为*note*的后倚音。
 ? *note*(^*subtrack*)
   Appoggiatura 函数的简记形式。
+
+### Arpeggio 琶音
+
+? Arpeggio(*subtrack*)
+  将*subtrack*用琶音来演奏。即将*subtrack*中的每一个音的结束时间设为*subtrack*的结束时间。
+? $*subtrack*
+  Arpeggio 函数的简记形式。
 
 ^ 具体信息 ^
 
