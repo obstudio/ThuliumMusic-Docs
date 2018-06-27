@@ -4,10 +4,13 @@
   default: "overview"
   content:
     - ["overview", "概述"]
+    - ["Section", "乐章"]
+    - ["Track", "音轨"]
+    - ["Subtrack", "子音轨"]
     - ["Note", "音符"]
     - ["BarLine", "小节线"]
     - ["Chord", "和弦"]
-    - ["TieAndSlur", "连音线"]
+    - ["Tie", "连音线"]
 - name: ["Ammonia", "Ammonia"]
   default: "overview"
   content:
@@ -26,11 +29,6 @@
     - ["Meta", "Meta"]
     - ["Setting", "Setting"]
     - ["Track", "Track"]
-- name: ["Guides", "指南"]
-  default: "Tonality"
-  content:
-    - ["Ornaments", "Ornaments"]
-    - ["Tonality", "Tonality"]
 - name: ["ChangeLog", "更新日志"]
   default: "3.0.1"
   content:
