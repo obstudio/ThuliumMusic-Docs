@@ -8,9 +8,11 @@
     - ["Track", "音轨"]
     - ["Subtrack", "子音轨"]
     - ["Note", "音符"]
-    - ["BarLine", "小节线"]
     - ["Chord", "和弦"]
+    - ["BarLine", "小节线"]
     - ["Tie", "连音线"]
+    - ["Pedal", "踏板"]
+    - ["Mechanism", "机制"]
 - name: ["Ammonia", "Ammonia"]
   default: "overview"
   content:

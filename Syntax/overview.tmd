@@ -1,9 +1,19 @@
-## 基本语法
+# 基本语法
 
-+ 音符
+### 基本概念
 
-+ [音符|Note] + [音高操作符|PitchOperator] + [时值操作符|DurationOperator] + [强度操作符|IntensityOperator] + [和弦|Chord] + [休止符|Rest] + [未定音高|UndeterminedPitch] +
+- [乐章|Section]
+- [音轨|Track]
+- [子音轨|Subtrack]
+- [小节线|BarLine]
 
-+ 节奏
+### 音符相关
 
-+ [小节线|BarLine] + [连音线|Tie] +
+- [音符|Note]
+- [和弦|Chord]
+
+### 内置记号
+
+- [连音线|Tie]
+- [踏板|Pedal]
+- [反复|Repeat]
