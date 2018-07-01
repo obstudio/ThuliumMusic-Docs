@@ -2,18 +2,18 @@
 
 ### 基本概念
 
-- [乐章|Section]
-- [音轨|Track]
-- [子音轨|Subtrack]
-- [小节线|BarLine]
+- [Section]
+- [Track]
+- [Subtrack]
+- [BarLine]
 
 ### 音符相关
 
-- [音符|Note]
-- [和弦|Chord]
+- [Note]
+- [Chord]
 
 ### 内置记号
 
-- [连音线|Tie]
-- [踏板|Pedal]
-- [反复|Repeat]
+- [Tie]
+- [Pedal]
+- [Repeat]
